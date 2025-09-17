@@ -7,8 +7,8 @@ const steps = [
   },
   {
     step: 2,
-    title: '방문 상담',
-    description: '전문 상담사가 방문하여 개인별 맞춤 상담을 제공합니다',
+    title: '제품 상담',
+    description: '전문 상담사 방문 또는 센터 직접 내방하여 개인별 맞춤 상담을 받습니다',
     icon: '🏠'
   },
   {
@@ -19,20 +19,20 @@ const steps = [
   },
   {
     step: 4,
-    title: '신청서 작성',
-    description: '노인장기요양보험 복지용구 신청서를 작성합니다',
+    title: '계약서 작성',
+    description: '복지용구 공급 계약서를 작성합니다',
     icon: '📝'
   },
   {
     step: 5,
     title: '승인 대기',
-    description: '국민건강보험공단의 승인을 기다립니다 (약 2-3주)',
+    description: '관할 지자체의 승인(기초수급권자 해당)을 기다립니다 (약 1주)',
     icon: '⏳'
   },
   {
     step: 6,
     title: '제품 배송',
-    description: '승인 후 선택한 복지용구를 배송 및 설치해드립니다',
+    description: '계약한 복지용구를 배송 및 설치해드립니다',
     icon: '🚚'
   }
 ];
@@ -89,7 +89,7 @@ export default function UsageGuide() {
                 href="tel:02-1234-5678"
                 className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
               >
-                📞 전화 상담 (02-1234-5678)
+                📞 전화 상담 (053-632-3522)
               </a>
               <a
                 href="/contact"

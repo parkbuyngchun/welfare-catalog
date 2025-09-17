@@ -4,15 +4,15 @@ const categories = [
   {
     id: 'mobility',
     name: '이동용품',
-    description: '휠체어, 보행기, 목발 등',
+    description: '휠체어, 보행기, 지팡이, 경사로로',
     icon: '🦽',
     color: 'bg-blue-100 text-blue-600',
     href: '/products/mobility'
   },
   {
     id: 'daily',
-    name: '일상생활용품',
-    description: '욕실용품, 주방용품 등',
+    name: '치매용품품',
+    description: '배회감지기 등',
     icon: '🛁',
     color: 'bg-green-100 text-green-600',
     href: '/products/daily'
@@ -20,31 +20,31 @@ const categories = [
   {
     id: 'safety',
     name: '안전용품',
-    description: '안전바, 손잡이, 경보기 등',
+    description: '안전손잡이, 미끔럼방지용품 등',
     icon: '🛡️',
     color: 'bg-red-100 text-red-600',
     href: '/products/safety'
   },
   {
     id: 'bed',
-    name: '침대용품',
-    description: '침대, 매트리스, 베개 등',
+    name: '침상용품',
+    description: '전동동침대, 욕창예방매트리스, 자세변환용구 등',
     icon: '🛏️',
     color: 'bg-purple-100 text-purple-600',
     href: '/products/bed'
   },
   {
     id: 'exercise',
-    name: '운동용품',
-    description: '재활운동기구, 마사지기 등',
+    name: '위생용품품',
+    description: '이동변기, 목욕의자, 간이대소변기 등',
     icon: '🏃',
     color: 'bg-orange-100 text-orange-600',
     href: '/products/exercise'
   },
   {
     id: 'communication',
-    name: '의사소통용품',
-    description: '보청기, 전화기, 알림기 등',
+    name: '비급여품목목',
+    description: '방수매트, 기저귀, 뉴케어 등',
     icon: '📞',
     color: 'bg-indigo-100 text-indigo-600',
     href: '/products/communication'
